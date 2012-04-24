@@ -4,7 +4,7 @@
 body {
 	/*background:#fff url(top-edge.png) repeat-x top left;*/
 	background-image:url("../images/noise.gif");
-	font: 18px Georgia,"Times New Roman",Times,serif;
+	font: 16px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
 	color:#161616;
 }
 
@@ -22,7 +22,7 @@ blockquote {
 	letter-spacing:0;
 	line-height:1.57;
 	font-style:normal;
-	font-size:18px;
+	font-size:16px;
 	color:#161616;
 	margin-bottom:20px;
 }
@@ -83,7 +83,7 @@ ul#links li {
 	float:left;
 	display:inline;
 	margin:0 0 0 30px;
-	font-size:18px;
+	font-size:16px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	text-shadow:0 1px 1px #fff;
 }
@@ -113,7 +113,7 @@ a.logo {
 	line-height:32px;
 	text-shadow:0 1px 1px #FFFFFF;
 	font-weight: normal;
-	font-size:18px;
+	font-size: 18px;
 	float:left;
 	margin-top: 54px;
 	margin-left: 5px;
@@ -137,10 +137,10 @@ article section {
 /** OLD **/
 #main {
 	color:#161616;
-	font-family:Georgia,"Times New Roman",Times,serif;
-	font-size:18px;
-	line-height:1.5em;
-	letter-spacing:0;
+	font-family: Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+	font-size: 16px;
+	line-height: 1.7em;
+	letter-spacing: 0;
 	text-align: justify;
 }
 #main article {
@@ -199,7 +199,7 @@ article section {
 	margin: 0 0 2px 0;
 }
 #main article .article-body h4 {
-	font-size:18px;
+	font-size: 18px;
 	margin: 0 0 0 0;
 }
 #main article .article-body .test h1 {
@@ -317,8 +317,8 @@ sup {
 	width: 100%;
 }
 .footer .more {
-	font-family: Georgia,"Times New Roman",Times,serif;
-	font-size: 18px;
+	font-family: Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+    	font-size: 16px;
 	font-weight:400;
 	font-style:	normal;
 	margin-bottom: 0;
