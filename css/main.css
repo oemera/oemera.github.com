@@ -131,7 +131,6 @@ a.logo {
 
 article section {
 	letter-spacing:0;
-	line-height:1.45em;
 }
 
 /** OLD **/
@@ -151,6 +150,10 @@ article section {
 #main article .about {
 	margin-bottom: 40px;
 	width: 100%;
+}
+#main article .about p img {
+	float:left; 
+	padding-right:15px;
 }
 #main .short section p {
 	margin-bottom:0;
