@@ -1,5 +1,6 @@
 ---
 layout: page
+about: active
 title: "About Me: Ömer Avci"
 ---
 

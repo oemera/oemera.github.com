@@ -70,6 +70,9 @@ sup {
 	position:absolute;
 	right:10px;
 }
+.header nav ul#links li a {
+	font-size: 18px;
+}
 .header-hr {
 	margin:-5px 0 25px 0; 
 	background: url('../images/separator_trans.png') repeat-x scroll left bottom transparent;
