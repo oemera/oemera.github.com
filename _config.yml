@@ -4,3 +4,4 @@ permalink:  /:year/:month/:title.html
 auto:       true
 rdiscount:
   extensions: [smart]
+paginate: 5

@@ -81,10 +81,10 @@
 					</div>
 					<div class="archive grid">
 						<div class="no-icon">Archiv</div>
-						{% for month in site.months.first %}
+						{% for month in site.test %}
 							<div class="item">
 								<a href="{{ site.baseurl }}/{{ monthly_archive.url }}">
-									{{ month.first.date | date: "%B" }} ({{ month | size }} posts)
+									{{ month.first.date | date: "%B %Y" }} ({{ month | size }} posts)
 								</a>
 							</div>
 						{% endfor %}

@@ -33,7 +33,18 @@ module TieredArchives
   end
   def self.find_last_five_months(posts)
     years = self.find_years(posts)
-    years.months.size
-    "test"
+    year = years[0] # => 2012
+    
+    count = 0
+    arr = []
+    years.each {|year|
+      year.each {|month|
+        if count < 5 
+          arr.push(month)
+          count += 1
+        end
+      }
+    }
+    arr
   end
 end

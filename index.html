@@ -4,7 +4,7 @@ blog: active
 title: "dailyOemer Blog"
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
     <article>
 		<div class="article-date">
 			<div class="date">{{ post.date | date: "%e" }}</div>
@@ -25,3 +25,17 @@ title: "dailyOemer Blog"
 		</section>
 	</article>
 {% endfor %}
+
+<div class="more-articles">
+	{% if paginator.next_page %}
+	<a href="/page{{paginator.next_page}}" class="older">&larr;&nbsp;Older Posts</a>
+	{% endif %}
+	{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1 %}
+			<a href="/" class="newer">Newer Posts&nbsp;&rarr;</a>
+		{% else %}
+		<a href="/page{{paginator.previous_page}}" class="newer">Newer Posts&nbsp;&rarr;</a>
+		{% endif %}
+	{% endif %}
+    <div class="clear"></div>
+</div><!--! end of #more-articles -->
