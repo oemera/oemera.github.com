@@ -64,8 +64,8 @@
   			<div class="more-body">
 				<div class="elsewhere-list">
 					<div class="item no-icon">Elsewhere...</div>
-					<div class="item git"><a href="http://github.com/">GitHub</a></div>
-					<div class="item twitter"><a href="http://twitter.com/">Twitter</a></div>
+					<div class="item git"><a href="http://github.com/oemera">GitHub</a></div>
+					<div class="item twitter"><a href="http://twitter.com/ObviousCaptain">Twitter</a></div>
 				</div><div class="clear"></div>
 				<div class="header-hr">&nbsp;</div>
 				<div class="grid-list">
@@ -81,9 +81,9 @@
 					</div>
 					<div class="archive grid">
 						<div class="no-icon">Archiv</div>
-						{% for month in site.test %}
+						{% for month in site.last_five_months %}
 							<div class="item">
-								<a href="{{ site.baseurl }}/{{ monthly_archive.url }}">
+								<a href="/{{ month.first.date | date: "%Y/%m" }}">
 									{{ month.first.date | date: "%B %Y" }} ({{ month | size }} posts)
 								</a>
 							</div>

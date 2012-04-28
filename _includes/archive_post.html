@@ -1,0 +1,20 @@
+{% comment %}
+This is the template used to show an entry in archives.
+Archives include: "by tags" and "by time" archives.
+{% endcomment %}
+<li> 
+<a href="{{post.url}}">{{ post.title }}</a><br>
+	<span class="entry-meta">Published: {{ post.date | date: "%B %d, %Y" }}</span>
+	<span class="entry-meta cat-links">Posted in
+	{% for tag in post.tags %}
+		<a rel="nofollow" href="/tag/{{tag}}">{{tag}}</a>
+	{% endfor %}
+	</span> 
+
+	<br>
+
+	<span class="entry-meta comments-link">
+	<a title="Comment on PsWatch: {{ post.title }}" 
+		href="http://joseoncode.com{{ post.url }}#disqus_thread">0 Comments and 0 Reactions</a>
+	</span>
+</li>

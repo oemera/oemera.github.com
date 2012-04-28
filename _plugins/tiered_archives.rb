@@ -21,8 +21,7 @@ class Jekyll::Site
   def site_payload
     data = site_payload_without_tiered_archives
     data['site']['years'] = TieredArchives::find_years(self.posts.reverse)
-    data['site']['months'] = TieredArchives::find_years(self.posts.reverse)
-    data['site']['test'] = TieredArchives::find_last_five_months(self.posts.reverse)
+    data['site']['last_five_months'] = TieredArchives::find_last_five_months(self.posts.reverse)
     data
   end
 end
