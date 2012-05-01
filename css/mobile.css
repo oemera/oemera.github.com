@@ -149,3 +149,14 @@ ul#links li {
 #main .info {
 	margin-left: 12px;
 }
+
+// ######
+#main .article-body section,
+#main .article-body footer {
+	display: none;
+}
+
+#main .article-body:first section,
+#main .article-body:first footer {
+	display: block;
+}

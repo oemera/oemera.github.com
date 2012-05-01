@@ -97,41 +97,15 @@
 					</div>
 					<div class="most-read grid">
 						<div class="no-icon">Most read</div>
-						<div class="row">
-							<div class="arrow">&rsaquo;</div>
-							<div class="item">
-								<a href="#">When a blogger walks into the room</a>
+						{% for tag in site.iterable.popular_tags %}
+        					<div class="row">
+								<div class="arrow">&rsaquo;</div>
+								<div class="item">
+									<!--a href="{{ post.url }}">{{ post.title }}</a-->
+									<a href="{{ tag.name }}">{{ tag.name }}</a>
+								</div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="arrow">&rsaquo;</div>
-							<div class="item">
-								<a href="#">About Objective-C</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="arrow">&rsaquo;</div>
-							<div class="item">
-								<a href="#">Android: the good, the bad and the ugly parts</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="arrow">&rsaquo;</div>
-							<div class="item">
-								<a href="#">I wish I knew this 5 years earlier</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="arrow">&rsaquo;</div>
-							<div class="item">
-								<a href="#">Some other guy comes in</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="arrow">&rsaquo;</div>
-							<div class="item">
-								<a href="#">Changing the old game</a>
-							</div>
+						{% endfor %}
 						</div>
 					</div>
 					<div class="clear"></div>

@@ -376,6 +376,17 @@ sup {
 	line-height:1.5em;
 	text-align:center;
 }
+.footer .more .copyright a {
+    color: #FFFFFF;
+}
+.footer .more .copyright a:hover {
+    text-decoration: underline;
+}
+.footer .more .copyright .grid {
+    width: 360px;
+    display:inline;
+    position:relative;
+}
 .footer .header-hr {
 	background: url('../images/footer_separator.png') repeat-x scroll left bottom transparent;
 }

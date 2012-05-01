@@ -7,4 +7,4 @@ pygments:  			true
 rdiscount:
   extensions: 		[smart]
 paginate: 			5
-tag_title_prefix: 	"Jose on Code! tag: \""
+tag_title_prefix: 	"dailyOemer - Posts über "
