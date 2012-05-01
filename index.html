@@ -26,16 +26,17 @@ title: "dailyOemer Blog"
 	</article>
 {% endfor %}
 
-<div class="more-articles">
+<div class="clear"></div>
+<div class="pagination">
 	{% if paginator.next_page %}
-	<a href="/page{{paginator.next_page}}" class="older">&larr;&nbsp;Older Posts</a>
+	<a href="/page{{paginator.next_page}}" class="next_page">&larr;&nbsp;Older Posts</a>
 	{% endif %}
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
-			<a href="/" class="newer">Newer Posts&nbsp;&rarr;</a>
+			<a href="/" class="previous_page">Newer Posts&nbsp;&rarr;</a>
 		{% else %}
-		<a href="/page{{paginator.previous_page}}" class="newer">Newer Posts&nbsp;&rarr;</a>
+		<a href="/page{{paginator.previous_page}}" class="previous_page">Newer Posts&nbsp;&rarr;</a>
 		{% endif %}
 	{% endif %}
     <div class="clear"></div>
-</div><!--! end of #more-articles -->
+</div><!-- end of pagination -->

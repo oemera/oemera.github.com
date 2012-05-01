@@ -71,13 +71,9 @@
 				<div class="grid-list">
 					<div class="tags grid">
 						<div class="no-icon">Tags</div>
-						<div class="item"><a href="Http://twitter.com/">Programming</a></div>
-						<div class="item"><a href="http://facebook.com">Apple</a></div>
-						<div class="item"><a href="http://github.com/">Today I Learned</a></div>
-						<div class="item"><a href="http://dailyoemer.com/">Ruby</a></div>
-						<div class="item"><a href="http://dailyoemer.com/rss">Java</a></div>
-						<div class="item"><a href="http://dailyoemer.com/rss">Event</a></div>
-						<div class="item"><a href="http://dailyoemer.com/rss">Objective-C</a></div>
+						{% for tag in site.iterable.popular_tags %}
+        					<div class="item"><a href="/tag/{{tag.name}}">{{tag.name}}</a></div>
+						{% endfor %}
 					</div>
 					<div class="archive grid">
 						<div class="no-icon">Archiv</div>

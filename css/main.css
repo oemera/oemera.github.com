@@ -607,18 +607,29 @@ sup {
 .resources {
 	margin-bottom:15px;
 }
+
 /***************** Pagination ***/
 .pagination {
+	font-size: 18px;
 	font-style:italic;
     margin-right: 12px;
-    margin-top: 25px;
+    margin-top: 15px;
 	display: block;
+
+	margin-bottom: 10px;
 }
 .pagination .disabled {
 	display: none;
 }
 .pagination a {
-	text-decoration: none;
+	text-decoration: underline;
+	color:#346B9A;
+}
+.pagination a:hover {
+	color:#161616;
+}
+.pagination a:visited {
+	color:#346B9A;
 }
 .pagination .next_page { 
 	float:left;

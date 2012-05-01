@@ -2,7 +2,7 @@
 layout: post
 title: Blogging With Jekyll and Github
 tags: 
-- Objective-C
+- Jekyll
 ---
 
 I am a developer, therefore I should have a blog. Right? I've been planning on setting one up for a while, but I didn't want to use Wordpress and was having trouble trying to figure out another solution without having to write one from scratch. Don't get me wrong, Wordpress does work well for blogs, but as a developer it just felt dirty to use that for my personal site where I should be showing off my mad skillz. Wordpress site != Mad Skillz. I figure it's kind of like a good carpenter buying all his wood furniture from Ikea. It's easy and works, but you can't be very proud to have it in your house.

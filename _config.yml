@@ -1,7 +1,10 @@
-markdown:   rdiscount
-pygments:   true
-permalink:  /:year/:month/:title.html
-auto:       true
+markdown:   		rdiscount
+pygments:   		true
+permalink:  		/:year/:month/:title.html
+exclude:  			[Gemfile, Gemfile.lock]
+auto:       		true
+pygments:  			true
 rdiscount:
-  extensions: [smart]
-paginate: 5
+  extensions: 		[smart]
+paginate: 			5
+tag_title_prefix: 	"Jose on Code! tag: \""
