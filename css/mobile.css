@@ -150,19 +150,14 @@ ul#links li {
 	margin-left: 12px;
 }
 
-#main .article-body {
+#main .post-index .article-body {
 	border-bottom: 1px solid #AAAAAA;
 	margin-bottom: 10px;
 }
 
-#main .article-body section,
-#main .article-body footer {
+#main .post-index .article-body section,
+#main .post-index .article-body footer {
 	display: none;
-}
-
-#main .article-body:first-child section,
-#main .article-body:first-child footer {
-	display: block;
 }
 
 .pagination {

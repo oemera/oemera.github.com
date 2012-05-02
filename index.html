@@ -5,7 +5,7 @@ title: "dailyOemer Blog"
 ---
 
 {% for post in paginator.posts %}
-    <article>
+    <article class="post-index">
 		<div class="article-date">
 			<div class="date">{{ post.date | date: "%e" }}</div>
 			<div class="month">{{ post.date | date: "%b" }}</div>
