@@ -109,6 +109,13 @@ a.logo {
 	border-bottom:none;
 	padding-left: 10px;
 }
+
+a.logo .logoimg {
+	background-image: url(/images/logo10.png);
+	width: 193px;
+	height: 80px;
+}
+
 .logoby {
 	font-family:Georgia,"Times New Roman",Times,serif;
 	font-style:italic;

@@ -163,3 +163,15 @@ ul#links li {
 .pagination {
 	margin-left: 10px;
 }
+
+// now replace that div's image with the 2x iphone 4 version:
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	a.logo .logoimg { 
+		background-image: url(/images/logo10@2x.png); 
+		-webkit-background-size: 193px 80px; 
+	}
+}
+
+/*a.logo .logoimg {
+	background-image: url(/images/logo11.png);
+}*/
