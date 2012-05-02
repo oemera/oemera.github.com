@@ -168,7 +168,7 @@ ul#links li {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	a.logo .logoimg { 
 		background-image: url(/images/logo10@2x.png); 
-		-webkit-background-size: 193px 80px; 
+		-webkit-background-size: 386px 160px; 
 	}
 }
 
