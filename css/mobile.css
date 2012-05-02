@@ -156,7 +156,7 @@ ul#links li {
 	display: none;
 }
 
-#main .article-body:first section,
-#main .article-body:first footer {
+#main .article-body:first-child section,
+#main .article-body:first-child footer {
 	display: block;
 }
