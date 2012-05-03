@@ -34,7 +34,7 @@ class Clicky
           title = i.xpath("title").first.content
           value = i.xpath("value").first.content.to_i rescue nil
           item.link = url
-          item.title = "#{title} (#{value})"
+          item.title = title
           item.value = value
 
           popular_posts << item
