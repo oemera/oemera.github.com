@@ -4,7 +4,7 @@
 	<title>dailyOemer.com</title>
 	<link href="http://dailyoemer.com/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="http://dailyoemer.com/"/>
-	<updated>2012-05-03T21:03:36+02:00</updated>
+	<updated>2012-05-03T21:50:41+02:00</updated>
 	<id>http://dailyoemer.com/</id>
 	<author>
 		<name>Ömer Avci</name>
@@ -166,9 +166,9 @@
 	
 	<entry>
 		<title>Blogging With Jekyll and Github</title>
-		<link type="text/html" rel="alternate" href="http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new+Kopie.html"/>
+		<link type="text/html" rel="alternate" href="http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new-kopie.html"/>
 		<updated>2010-03-01T00:00:00+01:00</updated>
-		<id>http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new Kopie/</id>
+		<id>http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new-kopie/</id>
 		<author>
 			<name>Ömer Avci</name>
 			<uri>http://dailyoemer.com/</uri>
@@ -189,17 +189,19 @@ cd ksornberger.github.com
 
 &lt;p&gt;Now create a basic index file for your site&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-&amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Kevin Sornberger/title&amp;gt;
-&amp;lt;/head&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Kevin Sornberger&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
 
-&amp;lt;body&amp;gt;
-    &amp;lt;h1&amp;gt;Kevin Sornberger's Blog!&amp;lt;/h1&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Kevin Sornberger&amp;#39;s Blog!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;Initialize your repository and do the initial commit&lt;/p&gt;
 

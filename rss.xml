@@ -6,8 +6,8 @@
     <atom:link href="http://dailyoemer.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>dailyOemer Blog</description>
     <language>de-de</language>
-    <pubDate>Thu, 03 May 2012 21:03:36 +0200</pubDate>
-    <lastBuildDate>Thu, 03 May 2012 21:03:36 +0200</lastBuildDate>
+    <pubDate>Thu, 03 May 2012 21:50:41 +0200</pubDate>
+    <lastBuildDate>Thu, 03 May 2012 21:50:41 +0200</lastBuildDate>
 
     
     <item>
@@ -140,10 +140,10 @@
     
     <item>
       <title>Blogging With Jekyll and Github</title>
-      <link>http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new+Kopie.html</link>
+      <link>http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new-kopie.html</link>
       <pubDate>Mon, 01 Mar 2010 00:00:00 +0100</pubDate>
       <author>oemer.a@me.com (Ömer Avci)</author>
-      <guid>http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new Kopie</guid>
+      <guid>http://dailyoemer.com/2010/03/blogging-with-jekyll-and-github-new-new-kopie</guid>
       <description>&lt;p&gt;I am a developer, therefore I should have a blog. Right? I&amp;rsquo;ve been planning on setting one up for a while, but I didn&amp;rsquo;t want to use Wordpress and was having trouble trying to figure out another solution without having to write one from scratch. Don&amp;rsquo;t get me wrong, Wordpress does work well for blogs, but as a developer it just felt dirty to use that for my personal site where I should be showing off my mad skillz. Wordpress site != Mad Skillz. I figure it&amp;rsquo;s kind of like a good carpenter buying all his wood furniture from Ikea. It&amp;rsquo;s easy and works, but you can&amp;rsquo;t be very proud to have it in your house.&lt;/p&gt;
 
 &lt;p&gt;I was also looking for something that I can use a very simple and clean layout for without too much trouble. Yes, Wordpress has lots of themes, but a lot of them are bloated, or are a pain in the ass to modify the templates unless you understand the Wordpress template system, I don&amp;rsquo;t care about learning that. I like a lot of Tumblr sites that I&amp;rsquo;ve seen, but I hate not owning my data. I follow Zach Holman on &lt;a href=&quot;http://www.twitter.com/holman&quot;&gt;Twitter&lt;/a&gt; and read &lt;a href=&quot;http://www.zachholman.com&quot;&gt;his blog&lt;/a&gt;, he&amp;rsquo;s a smart developer at &lt;a href=&quot;http://www.github.com&quot;&gt;GitHub&lt;/a&gt; who has some interesting opinions and ideas, and he&amp;rsquo;s actually pretty entertaining. I decided that I like the simplicity of his blog, and since he&amp;rsquo;s a cool developer he must have created his blog in a cool way!? He did.&lt;/p&gt;
@@ -160,17 +160,19 @@ cd ksornberger.github.com
 
 &lt;p&gt;Now create a basic index file for your site&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html&amp;gt;
-&amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;Kevin Sornberger/title&amp;gt;
-&amp;lt;/head&amp;gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Kevin Sornberger&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
 
-&amp;lt;body&amp;gt;
-    &amp;lt;h1&amp;gt;Kevin Sornberger's Blog!&amp;lt;/h1&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Kevin Sornberger&amp;#39;s Blog!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;Initialize your repository and do the initial commit&lt;/p&gt;
 

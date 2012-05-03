@@ -36,7 +36,7 @@
   <!-- CSS : implied media="all" -->
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="/css/highlight.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/css/pygments/default.css" type="text/css" media="screen" />
   <link media="only screen and (max-device-width: 480px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (device-width: 768px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
  
@@ -155,7 +155,7 @@
 		</div>
 		<section class="article-body">
 			<header>
-				<h1><a href="/2010/03/blogging-with-jekyll-and-github-new-new+Kopie.html">Blogging With Jekyll and Github</a></h1>
+				<h1><a href="/2010/03/blogging-with-jekyll-and-github-new-new-kopie.html">Blogging With Jekyll and Github</a></h1>
 			</header>
 			<section>
 				<p>I am a developer, therefore I should have a blog. Right? I&rsquo;ve been planning on setting one up for a while, but I didn&rsquo;t want to use Wordpress and was having trouble trying to figure out another solution without having to write one from scratch. Don&rsquo;t get me wrong, Wordpress does work well for blogs, but as a developer it just felt dirty to use that for my personal site where I should be showing off my mad skillz. Wordpress site != Mad Skillz. I figure it&rsquo;s kind of like a good carpenter buying all his wood furniture from Ikea. It&rsquo;s easy and works, but you can&rsquo;t be very proud to have it in your house.</p>
@@ -174,17 +174,19 @@ cd ksornberger.github.com
 
 <p>Now create a basic index file for your site</p>
 
-<pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Kevin Sornberger/title&gt;
-&lt;/head&gt;
+<div class="highlight"><pre><code class="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Kevin Sornberger<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
 
-&lt;body&gt;
-    &lt;h1&gt;Kevin Sornberger's Blog!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Kevin Sornberger&#39;s Blog!<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
 </code></pre>
+</div>
+
 
 <p>Initialize your repository and do the initial commit</p>
 
@@ -305,7 +307,7 @@ This is my first post. Hoo-Raw.
 			</section>
 			<footer>
 				<div class="article-pane">
-					<a href="/2010/03/blogging-with-jekyll-and-github-new-new+Kopie.html#comments">Comments</a>
+					<a href="/2010/03/blogging-with-jekyll-and-github-new-new-kopie.html#comments">Comments</a>
 				</div>
 			</footer>
 		</section>
