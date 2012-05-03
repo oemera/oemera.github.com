@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogging With Jekyll and Github
+title: Easy Life With Jekyll and Github
 tags:
 - misc
 - Hacker News
