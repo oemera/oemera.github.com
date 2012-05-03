@@ -41,20 +41,10 @@ module Jekyll
     popular_tags.sort! {|a,b| b['posts'].size <=> a['posts'].size }
     popular_tags = popular_tags[0..19]
 
-    most_read_posts = []
-    doc = Nokogiri::XML(File.open("/Users/oemeravci/Documents/Development/WebWorkspace/oemera.github.com/_extensions/stats.xml", "r"))
-    doc.xpath('//item').each do |item|
-      most_read_posts.push({
-        title:item.xpath("//title").first.content, 
-        value:item.xpath("//value").first.content, 
-        url:item.xpath("//url").first.content})
-    end
-
     result['site']['iterable'] = {
       'categories' => site_instance.make_iterable(site_instance.categories, :index => 'name', :items => 'posts'),
       'tags' => tags,
       'popular_tags' => popular_tags,
-      'most_read_posts' => most_read_posts,
       #added by Jose
       'archives' => site_instance.posts.group_by{ |c| {"month" => "%02d" % c.date.month, 
                                                        "year" => c.date.year.to_s(), 

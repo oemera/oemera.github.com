@@ -1,0 +1,25 @@
+--- 
+- !ruby/object:OpenStruct 
+  modifiable: true
+  table: 
+    :link: http://dailyoemer.com/
+    :title: dailyOemer Blog
+    :value: "6"
+- !ruby/object:OpenStruct 
+  modifiable: true
+  table: 
+    :link: http://dailyoemer.com/2012/03/blogging-with-jekyll-and-github.html
+    :title: Blogging With Jekyll and Github
+    :value: "1"
+- !ruby/object:OpenStruct 
+  modifiable: true
+  table: 
+    :link: http://dailyoemer.com/page2/
+    :title: dailyOemer Blog
+    :value: "1"
+- !ruby/object:OpenStruct 
+  modifiable: true
+  table: 
+    :link: http://dailyoemer.com/2012/01/blogging-with-jekyll-and-github.html
+    :title: Blogging With Jekyll and Github
+    :value: "1"

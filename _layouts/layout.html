@@ -97,15 +97,14 @@
 					</div>
 					<div class="most-read grid">
 						<div class="no-icon">Most read</div>
-						{% for tag in site.iterable.popular_tags %}
-        					<div class="row">
+						{% clicky site_id:66574530 site_key:7ce6626b7de45b90 ttl:3600 %}
+							<div class="row">
 								<div class="arrow">&rsaquo;</div>
 								<div class="item">
-									<!--a href="{{ post.url }}">{{ post.title }}</a-->
-									<a href="{{ tag.name }}">{{ tag.name }}</a>
+									<a href="{{ item.link }}">{{ item.title }}</a>
 								</div>
 							</div>
-						{% endfor %}
+						{% endclicky %}
 						</div>
 					</div>
 					<div class="clear"></div>
