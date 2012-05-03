@@ -42,7 +42,7 @@ class Clicky
       end
 
       popular_posts.sort! {|a,b| b.value <=> a.value }
-      popular_posts
+      popular_posts[0..5]
     end
   end
 end
