@@ -24,18 +24,24 @@ class Clicky
   class << self
     def tag(site_id, site_key)
       popular_posts = []
-      url = "http://api.getclicky.com/api/stats/4?site_id=66574530&sitekey=7ce6626b7de45b90&type=pages&date=this-month"
+      url = "http://api.getclicky.com/api/stats/4?site_id=#{site_id}&sitekey=#{site_key}&type=pages&date=last-30-days"
       doc = Nokogiri::XML(open(url))
       doc.xpath('//item').each do |i|
-        item = OpenStruct.new
+        url = i.xpath("url").first.content
+        if /http:\/\/dailyoemer.com\/[0-9]{4}\/[0-9]{2}\/[0-9A-Za-z\-_\.]*.html/.match(url)
+          item = OpenStruct.new
 
-        item.link = i.xpath("url").first.content
-        item.title = i.xpath("title").first.content
-        item.value  = i.xpath("value").first.content rescue nil
+          title = i.xpath("title").first.content
+          value = i.xpath("value").first.content.to_i rescue nil
+          item.link = url
+          item.title = "#{title} (#{value})"
+          item.value = value
 
-        popular_posts << item
+          popular_posts << item
+        end
       end
 
+      popular_posts.sort! {|a,b| b.value <=> a.value }
       popular_posts
     end
   end
