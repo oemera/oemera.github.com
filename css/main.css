@@ -11,8 +11,17 @@ body {
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockquote {
 	margin-bottom:20px;
 }
+
 ol {
 	list-style:decimal outside none;
+}
+
+pre {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #1d1f21; 
+	color: #c5c8c6; 
+	background-color: #1d1f21;
 }
 
 blockquote {
@@ -177,7 +186,6 @@ article section {
 	color:#161616;
 }
 #main pre {
-	padding-left: 0;
 	padding-right: 0;
 	white-space:pre-wrap;
 }
